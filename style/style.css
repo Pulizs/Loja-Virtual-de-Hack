@@ -17,9 +17,50 @@ h1 {
     text-align: center;
     font-size: 45px;
     width: 300px;
-    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    ;
     text-transform: uppercase;
     margin: 0px 0px;
+}
+
+.t1{
+    color: black;
+}
+
+article{
+    width: 17%;
+    height: 12%;
+}
+
+.sectionOne article:hover {
+    background-color: #E3E3E3;
+    cursor: pointer;
+    border-radius: 20px;
+    transform: translateY(-50px);
+    width: 22%;
+    height: 10%;
+}
+
+.sectionThree article:hover {
+    background-color: #E3E3E3;
+    cursor: pointer;
+    border-radius: 20px;
+    transform: translateY(-50px);
+    width: 22%;
+    height: 10%;
+}
+
+.sectionOne, .sectionThree, .sectionTwo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.t2{
+    color: #ffffff;
+    background-color: #272727;
 }
 
 .logo {
@@ -39,7 +80,7 @@ nav {
 }
 
 a:link {
-    color: #000000;
+    color: black;
     text-decoration: none;
 }
 
@@ -55,14 +96,15 @@ a:active {
     color: #a200ff;
 }
 
-.menuNav{
+.menuNav {
     display: inline;
     margin: 10px;
     font-size: 20px;
 }
 
-.sectionOne, .sectionThree {
-    color: #000000;
+.sectionOne,
+.sectionThree {
+    color: #272727;
     background-color: #ffffff;
     padding: 3px 0px;
     width: 100%;
@@ -71,7 +113,7 @@ a:active {
 
 .sectionTwo {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #272727;
     padding: 3px 0px;
     width: 100%;
     float: left;
@@ -103,7 +145,7 @@ aside {
     color: #afafaf;
 }
 
-.menuRel:hover{
+.menuRel:hover {
     color: #a200ff;
     border: 1px solid #a200ff;
     border-radius: 10px;
@@ -129,5 +171,3 @@ article {
     margin-left: 0px;
     text-align: center;
 }
-
-
